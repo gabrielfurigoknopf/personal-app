@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="fechar()">Voltar</ion-button>
+    </ion-buttons>
+    <ion-title>{{ projeto?.nome }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <p>{{ projeto?.descricao }}</p>
+  <ion-button expand="full" [href]="projeto?.link" target="_blank">
+    Ver no GitHub
+  </ion-button>
+</ion-content>

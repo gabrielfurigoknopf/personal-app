@@ -23,7 +23,7 @@ export class ProjectsPage {
     {
       nome: 'Personal APP',
       descricao: 'App de apresentação pessoal com ionic.',
-      link: '#'
+      link: 'https://github.com/gabrielfurigoknopf/personal-app'
     }
   ];
 
